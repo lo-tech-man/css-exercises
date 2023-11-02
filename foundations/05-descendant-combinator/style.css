@@ -1,0 +1,14 @@
+.container .text {
+	background-color: yellow;
+	color: red;
+	font-size: 20px;
+	text-align: center;
+}
+
+/* In addition to the above, using the below selector combinations also achieve
+the same result:
+
+.container p
+div .text
+div p
+*/
