@@ -23,5 +23,59 @@ input {
   border-radius: 16px;
   padding: 8px 24px;
   width: 400px;
-  margin-bottom: 16px;
+}
+
+/* SOLUTION */
+
+body {
+	display: flex;
+	flex-direction: column;
+}
+
+ul {
+	padding: 0;
+	margin: 0;
+}
+
+li {
+	list-style: none;
+}
+
+a:link,
+a:visited,
+a:hover,
+a:active {
+	text-decoration: none;
+	color: rgb(119, 102, 102);
+}
+
+.header,
+.footer {
+	padding: 16px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.left-links,
+.right-links {
+	display: flex;
+	gap: 16px;
+}
+
+.content {
+	flex: auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 16px;
+}
+
+.buttons button {
+	padding: 8px 16px;
+}
+
+.footer {
+	background-color: rgb(238, 238, 238);
 }
